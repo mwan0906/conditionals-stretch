@@ -4,6 +4,8 @@ if (guess < correct) {
   alert("Too low...");
 } else if (guess > correct) {
   alert("Too high...");
-} else {
+} else if (guess == 50) {
   alert("You got it!");
+} else {
+  alert("That's not a number...");
 }
